@@ -20,7 +20,7 @@ var config = {
     // subtitle: 'subtitle, if desired',
     byline: 'Mapa hecho por el Proyecto Juaricua, en colaboración con [06600] Observatorio Vecinal de la Colonia Juárez',
     littleByline: 'Para mejores resultados, visualice el sitio web desde un ordenador (website).',
-    footer: 'Este mapa fue creado usando la plantilla de <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a>. NEEDS TRANSLATION Thank you to the <a href="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> for providing us with access to Mapbox Studio. <br> <br> Published in 2025.',
+    footer: 'Este mapa fue creado usando la plantilla de <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a>.  TRANSLATION Thank you to the <a href="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> for providing us with access to Mapbox Studio. <br> <br> Published in 2025.Agradecemos al ="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> por darnos el acceso a Mapbox Studio. Publicado en 2025.',
     
     // Chapter Details
     chapters: [
@@ -31,7 +31,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'La ciudad de México ha sido un destino turístico reconocido desde hace tiempo..',
-            description: ' sin embargo, recientemente el tipo de turismo ha cambiado: los turistas ya no vienen solo un par de semanas. Desde la pandemia de Covid-19 y a medida que empresas de todo el mundo han decidido ofrecer más oportunidades de trabajo remoto (<em> home office </em>), ha habido un aumento exponencial en el número de extranjeros que se mudan a la Ciudad de México por periodos prolongados para trabajar remotamente.',
+            description: ' sin embargo, recientemente el tipo de turismo ha cambiado: los turistas ya no vienen solo un par de semanas. Desde la pandemia de Covid-19 y a medida que empresas de todo el mundo han decidido ofrecer más oportunidades de trabajo remoto (<em>home office</em>), ha habido un aumento exponencial en el número de extranjeros que se mudan a la Ciudad de México por periodos prolongados para trabajar remotamente.',
             image: './images/intro_image_v4.jpg',
             imageCaption: "Se dice hace mucho tiempo, antes de Airbnb en este edificio hubo vida real.",
             location: {
@@ -125,7 +125,7 @@ var config = {
             title: 'Nómadas Digitales y la  \’Gringuificación\’ ',
             // image: './images/tulum_beach.jpg',
             
-            description: 'Predominantemente trabajadores Norteamericanos o \“Nómadas Digitales\”, voltearon a ver la Ciudad de México cuando se popularizó el estilo de vida por medio de los <em> Influencers </em>. Los “<em> Influencers </em> Nómadas Digitales” trajeron atención a la Ciudad de México, destacando especialmente a la “cultura vibrante, costo de vida accesibles y la variedad de espacios para <em> Coworking </em>” [1].',
+            description: 'Predominantemente trabajadores Norteamericanos o \“Nómadas Digitales\”, voltearon a ver la Ciudad de México cuando se popularizó el estilo de vida por medio de los <em> Influencers </em>. Los “<em>Influencers </em> Nómadas Digitales” trajeron atención a la Ciudad de México, destacando especialmente a la “cultura vibrante, costo de vida accesibles y la variedad de espacios para <em> Coworking </em>” [1].',
             image: './images/digital_nomads.png',
             imageCaption: 'Contenido de influencers en YouTube, Instagram, TikTok y otras plataformas sociales retrata a la Ciudad de México como un destino deseable y asequible para los nómadas digitales.', 
             location: {
@@ -218,7 +218,7 @@ var config = {
             hidden: false,
             title: 'Unidades de Airbnb en la Alcaldía Cuauhtémoc ',
             
-            description: 'A partir de este tiempo, el contenido generado por los influencers comenzó a popularizarse en redes sociales. Se observó un incremento significativo en el número de alquileres de corta estancia, particularmente en la plataforma Airbnb. Ubicados en su mayoría en alcaldías como Cuauhtémoc . Colonias como La Condesa y la Roma, se volvieron focos para las unidades de Airbnb. Comparando el número de unidades en la Alcadía Cuauhtémoc en años previos a la pandemia, se tuvo un incremento del 71% entre 2019 y 2024 en cuanto al número de unidades en renta.',
+            description: 'A partir de este tiempo, el contenido generado por los influencers comenzó a popularizarse en redes sociales. Se observó un incremento significativo en el número de alquileres de corta estancia, particularmente en la plataforma Airbnb. Ubicados en su mayoría en alcaldías como Cuauhtémoc. Colonias como La Condesa y la Roma, se volvieron focos para las unidades de Airbnb. Comparando el número de unidades en la Alcadía Cuauhtémoc en años previos a la pandemia, se tuvo un incremento del 71% entre 2019 y 2024 en cuanto al número de unidades en renta.',
             legend: '<em> Unidades de Airbnb localizadas en la Alcaldía Cuauhtémoc 2024. Cada punto rosa representa una unidad de Airbnb. Datos retribuidos de InsideAirbnb, 2024 <br> <br> Este es un mapa interactivo. Puedes acercar y desplazar. </em>',
             // image: './images/airbnb_points.png',
 
@@ -701,7 +701,7 @@ var config = {
             id: 'hundred_plus_landlords_text',
             alignment: 'center',
             hidden: false,
-            title: 'NEEDS TRANSLATION And the Emergence of Mega-Landlords',
+            title: 'El Ascenso de los Mega-Caseros',
             // image: './images/tulum_beach.jpg',
             description: 'Algunos <em> mega-hosts </em> emergen en este periodo, y han manejado hasta 1,500 unidades al mismo tiempo. Dos <em> mega-hosts </em> ­­­destacan en este proceso por el número de unidades que manejan: Mr.W y Virtual Homes. <br> <br> Ambos, junto con otros <em> mega-hosts </em>,  manejan a veces edificios cuales son únicamente utilizados como Airbnb. Este fenómeno plantea las preguntas : <br> <br> <strong> ¿Quiénes vivían en estos edificios antes de volverse Airbnb? ¿Qué impacto tienen los Airbnb en las comunidades donde se ubican? </strong>',
             
@@ -1494,7 +1494,7 @@ var config = {
             title: 'Uno los testimonios proviene de un inquilino:',
             // imageBeforeDescription: "./images/juarez_skyline.png",
             audio: "./media/testimonio_1.mp3",
-            audioCaption: "NEEDS TRANSLATION The above quote is a condensed version of what the tenant recounted on Dec 4, 2020 (recording in Spanish only).",
+            audioCaption: "La siguiente cita es una versión condensada de las declaraciones dadas por la inquilina en Diciembre, 2020.",
             image: './images/eviction_1.png',
             imageCaption: 'Captura de pantalla proveniente de un vídeo de la plataforma [06600] documentando el día del desalojo.',
         
@@ -1588,7 +1588,7 @@ var config = {
             title: 'Otro inquilino comentó:',
             // imageBeforeDescription: "./images/juarez_skyline.png",
             audio: "./media/testimonio_2.mp3",
-            audioCaption: "NEEDS TRANSLATION The above quote is a condensed version of what the tenant recounted on Dec 4, 2020 (recording in Spanish only).",
+            audioCaption: "La siguiente cita es una versión condensada de las declaraciones dadas por la inquilina en Diciembre, 2020.",
             image: './images/eviction_2.png',
             imageCaption: 'Captura de pantalla proveniente de un vídeo de la plataforma [06600] documentando el día del desalojo.',
             description: '<em>“He vivido 35 años en Nápoles 35… Hoy arbitrariamente nos desalojaron, jamás recibimos una notificación para poder defendernos es una brutalidad, es un abuso…Entonces desafortunadamente no tengo aquí en el distrito federal a donde ir a residir…  Yo soy diabética, entonces soy de la tercera edad, tengo una discapacidad motriz, pero no les importo nada…Hay unas personas igual que . Una persona que es invidente, con Alzheimer…<strong> ¿que representa para ustedes quedarse sin casa durante la pandemia? </strong>”</em>',
@@ -2157,7 +2157,7 @@ var config = {
             image: './images/juarez_conclusion.png',
             imageCaption: 'Murales como este son una de las maneras que los vecinos de la Colonia Juárez resisten el Blanqueamiento por Despojo, al mismo tiempo visibilizan sus lucha por la Colonia. ',
             // image: './images/tulum_beach.jpg',
-            description: 'NEEDS TRANSLATION Although the municipal government’s recent policies signal a desire to slow the growth of Airbnb, it is unclear how successful they will be, and how well the new rules will be enforced. Available data from 2024 suggests that the number of Airbnb listings in Alcaldía Cuauhtémoc has remained relatively steady throughout the year. Although the striking increases in listings observed in 2022-2023 have slowed, the thousands of Airbnb units established during these years remain. Digital nomads continue to take selfies on Mexico City’s streets, and gentrification continues to shape the cultural and economic landscape. <br> <br> However, residents in neighborhoods like La Juárez are not accepting these changes as inevitable. Blanqueamiento por despojo and gentrification are ongoing, and are rooted in longer histories of dispossession in Mexico City. Yet Juaricuas are not deterred - they continue to practice everyday and creative forms of resistance to Airbnb and other forms of capitalist speculation in their neighborhood. These modes of resistance are visible and forthright, as wheat pasted posters or painted murals on buildings where residents are resisting displacement. Others are perhaps less obvious, such as a street vendor continuing to sell their goods even after the buildings they share the sidewalk with have been whitewashed. Juaricuas continue to insist on the right to remain in their neighborhood, in their homes, on their terms. <em> El barrio es de quien lo trabaja. La lucha sigue. </em>',
+            description: 'Mientras que los gobiernos municipales han comenzado a limitar el crecimiento de plataformas como Airbnb, no es claro que tan aplicadas y exitosas serán las nuevas reglamentaciones. Los datos disponibles para Airbnb en la Alcaldía Cuahutémoc se han mantenido relativamente estables a lo largo del año. Mientras los incremento de golpe observados en el periodo de 2022-2023 se han ralentizado, los miles de unidades de Airbnb que fueron establecidas se mantienen en el mercado.  Los nómadas digitales continúan tomando <em> selfies <em> en las calles de la Ciudad de/ México, y la gentrificación continúa modificando el paisaje cultural y económico de la ciudad. <br> <br> Sin embargo, residentes como los de la Juárez no aceptan estos cambios como parte de un futuro inevitable. Mientras que el blanqueamiento por despojo y la gentrificación son procesos que se mantienen activos, y están fundamentados en largos procesos de despojo que se han vivido históricamente en la Ciudad de México. Aún así, los Juaricuas no han podido ser disuadidos, y continúan practicando en su día a día diferentes y creativas formas de resistencia ante el Airbnb y otras formas de especulación capitalista en su colonia. Estos modelos de resistencia son visibles y directos, como lo son afiches y murales en edificios donde los residentes resisten el desplazamiento. Otros son menos obvios como el señor de los tamales que continúa vendiendo comida, aún cuando los edificios del otro lado de la banqueta han sido blanqueados. Los Juaricuas defienden su derecho de mantenerse en su colonia, y en sus casas. <em>El barrio es de quien lo trabaja. La lucha sigue. </em>',
             
             location: {
                 center: [-99.14960, 19.40666],
