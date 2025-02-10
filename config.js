@@ -20,7 +20,7 @@ var config = {
     // subtitle: 'subtitle, if desired',
     byline: 'Mapa hecho por el Proyecto Juaricua, en colaboración con [ 06600 ] Plataforma Observatorio Vecinal de la Colonia Juárez',
     littleByline: 'Para mejores resultados, visualice el sitio web desde un ordenador (website).',
-    footer: 'Este mapa fue creado usando la plantilla de <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a>.  TRANSLATION Thank you to the <a href="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> for providing us with access to Mapbox Studio. <br> <br> Published in 2025.Agradecemos al ="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> por darnos el acceso a Mapbox Studio. Publicado en 2025.',
+    footer: 'Este mapa fue creado usando la plantilla de <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a>.Agradecemos al <a href="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> por darnos el acceso a Mapbox Studio. Publicado en 2025.',
     
     // Chapter Details
     chapters: [
