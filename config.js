@@ -15,8 +15,8 @@ var config = {
     auto: false,
 
    // Story Details
-    title: '¡FUERA AIRBNB!',
-    subtitle: "Alquileres de Corto Plazo y su rol en el desplazamiento forzado y despojo en la Ciudad de México",
+    title: 'Lucha por la vivienda',
+    subtitle: "Alquileres de Corto Plazo y desplazamiento en la Ciudad de México",
     // subtitle: 'subtitle, if desired',
     byline: 'Mapa hecho por el Proyecto Juaricua, en colaboración con [ 06600 ] Plataforma Observatorio Vecinal de la Colonia Juárez',
     littleByline: 'Para mejores resultados, visualice el sitio web desde un ordenador (website).',
@@ -122,7 +122,7 @@ var config = {
             id: 'digital_nomads',
             alignment: 'center',
             hidden: false,
-            title: 'Nómadas Digitales y la  \’Gringuificación\’ ',
+            title: 'La Influencia de las Nómadas Digitales',
             // image: './images/tulum_beach.jpg',
             
             description: 'Predominantemente trabajadores Norteamericanos o \“Nómadas Digitales\”, voltearon a ver la Ciudad de México cuando se popularizó el estilo de vida por medio de los <em> Influencers </em>. Los “<em>Influencers </em> Nómadas Digitales” trajeron atención a la Ciudad de México, destacando especialmente a la “cultura vibrante, costo de vida accesibles y la variedad de espacios para <em> Coworking </em>” [1].',
