@@ -16,7 +16,7 @@ var config = {
 
    // Story Details
     title: 'Lucha por la vivienda',
-    subtitle: "Alquileres de Corto Plazo y desplazamiento en la Ciudad de México",
+    subtitle: "Alquileres de Corto Plazo y su rol en el desplazamiento forzado y despojo en la Ciudad de México",
     // subtitle: 'subtitle, if desired',
     byline: 'Mapa hecho por el Proyecto Juaricua, en colaboración con [ 06600 ] Plataforma Observatorio Vecinal de la Colonia Juárez',
     littleByline: 'Para mejores resultados, visualice el sitio web desde un ordenador (website).',
@@ -30,10 +30,10 @@ var config = {
             id: 'introduction',
             alignment: 'left',
             hidden: false,
-            title: 'La ciudad de México ha sido un destino turístico reconocido desde hace tiempo..',
-            description: ' sin embargo, recientemente el tipo de turismo ha cambiado: los turistas ya no vienen solo un par de semanas. Desde la pandemia de Covid-19 y a medida que empresas de todo el mundo han decidido ofrecer más oportunidades de trabajo remoto (<em>home office</em>), ha habido un aumento exponencial en el número de extranjeros que se mudan a la Ciudad de México por periodos prolongados para trabajar remotamente.',
+            title: 'La Ciudad de México ha sido durante mucho tiempo un destino turístico...',
+            description: '...pero en los últimos años el turismo ha cambiado de aspecto. Desde la pandemia del COVID-19,  empresas de todo el mundo ofrecen cada vez más oportunidades de trabajo a distancia a sus empleados, por lo que se ha producido un aumento espectacular del número de trabajadores extranjeros a distancia que se trasladan a Ciudad de México para quedarse durante largos periodos de tiempo.',
             image: './images/intro_image_v4.jpg',
-            imageCaption: "Se dice hace mucho tiempo, antes de Airbnb en este edificio hubo vida real.",
+            imageCaption: "Se dice hace mucho, mucho  tiempo, antes de Airbnb, en este edificio hubo vida real.",
             location: {
                 center: [-99.40935, 19.35071],
                 zoom: 9.25,
@@ -122,12 +122,11 @@ var config = {
             id: 'digital_nomads',
             alignment: 'center',
             hidden: false,
-            title: 'La Influencia de las Nómadas Digitales',
-            // image: './images/tulum_beach.jpg',
+            title: 'La influencia de los nómadas digitales',
             
-            description: 'Predominantemente trabajadores Norteamericanos o \“Nómadas Digitales\”, voltearon a ver la Ciudad de México cuando se popularizó el estilo de vida por medio de los <em> Influencers </em>. Los “<em>Influencers </em> Nómadas Digitales” trajeron atención a la Ciudad de México, destacando especialmente a la “cultura vibrante, costo de vida accesibles y la variedad de espacios para <em> Coworking </em>” [1].',
+            description: 'Estos trabajadores predominantemente norteamericanos, o «nómadas digitales», comenzaron a dirigir su mirada a la Ciudad de México alrededor de 2021, cuando el contenido de los <em>influencer</em> sobre mudarse a la Ciudad de México comenzó a popularizarse en línea. Estos «nómadas digitales influyentes» sin duda han desempeñado un papel importante a la hora de atraer la atención del público hacia Ciudad de México, destacando la «vibrante cultura, el coste de vida asequible y la variedad de espacios de coworking» de la ciudad como principales atractivos [1]. También influye la presencia de Airbnbs, donde muchos nómadas digitales se alojan durante varios meses antes de marcharse.',
             image: './images/digital_nomads.png',
-            imageCaption: 'Contenido de influencers en YouTube, Instagram, TikTok y otras plataformas sociales retrata a la Ciudad de México como un destino deseable y asequible para los nómadas digitales.', 
+            imageCaption: 'Contenido de influencers en YouTube, Instagram, TikTok y otras plataformas sociales muestra a la Ciudad de México como un destino deseable y asequible para los nómadas digitales.', 
             location: {
                 center: [-99.40935, 19.35071],
                 zoom: 9.25,
@@ -216,9 +215,9 @@ var config = {
             id: 'context_cuahtemoc',
             alignment: 'left',
             hidden: false,
-            title: 'Unidades de Airbnb en la Alcaldía Cuauhtémoc ',
+            title: 'Unidades de Airbnb en la Alcaldía Cuauhtémoc',
             
-            description: 'A partir de este tiempo, el contenido generado por los influencers comenzó a popularizarse en redes sociales. Se observó un incremento significativo en el número de alquileres de corta estancia, particularmente en la plataforma Airbnb. Ubicados en su mayoría en alcaldías como Cuauhtémoc. Colonias como La Condesa y la Roma, se volvieron focos para las unidades de Airbnb. Comparando el número de unidades en la Alcadía Cuauhtémoc en años previos a la pandemia, se tuvo un incremento del 71% entre 2019 y 2024 en cuanto al número de unidades en renta.',
+            description: 'A partir de este tiempo (2020), se comienza a popularizar el contenido generado por los influencers en redes sociales.  Al mismo tiempo se observa un incremento en el número de alquileres de corta estancia, particularmente en la plataforma Airbnb. Estos alquileres ubicados en su mayoría en alcaldías como Cuauhtémoc, colonias como La Condesa y la Roma, se volvieron epicentros  de los Airbnb. <br> <br> La base de datos usada en la presente investigación  proviene de  Inside Airbnb, un proyecto que extrae datos regularmente de la plataforma de Airbnb en distintas ciudades del mundo. En la Ciudad de México los datos están disponibles a partir del 2019. <br> <br> A pesar que las Colonias Condesa y Roma fueron epicentros para el Airbnb antes de la pandemia, el incremento de unidades alojamiento de airbnb en la Colonia Cuauhtémoc, incrementó en un 71% entre 2019 y 2024. ',
             legend: '<em> Unidades de Airbnb localizadas en la Alcaldía Cuauhtémoc 2024. Cada punto rosa representa una unidad de Airbnb. Datos retribuidos de InsideAirbnb, 2024 <br> <br> Este es un mapa interactivo. Puedes acercar y desplazar. </em>',
             // image: './images/airbnb_points.png',
 
