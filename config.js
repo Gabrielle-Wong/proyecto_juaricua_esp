@@ -404,8 +404,8 @@ var config = {
         },
 
         {
-            // 4: Mega Landlords
-            id: 'mega_landlords',
+            // 4: Mega Hosts
+            id: 'mega_hosts',
             alignment: 'center',
             hidden: false,
             title: 'Crecimiento de los \'Mega-Hosts\'',
@@ -495,14 +495,13 @@ var config = {
         },
 
         {
-            // 4: Mega Landlords
-            id: 'mega_landlords_ii',
+            // 4: Mega Hosts
+            id: 'mega_hosts_ii',
             alignment: 'left',
             hidden: false,
             title: "Unidades de Airbnb pertenecientes a los Mega-Hosts en Septiembre del 2019. ",
             // description: "Shown based on number of units owned by the unit's host.",
             image: './images/number_of_units_owned_legend.png',
-            // description: 'Since 2022, there has been a noted increase in Airbnb landlords that own multiple units. A few mega-landlords have emerged in Mexico City, that own or manage 100+ units.',
             legend: '<em> Este es un mapa interactivo. Puedes acercar y desplazar. </em>',
             location: {
                 center: [-99.18165, 19.42285],
@@ -597,8 +596,8 @@ var config = {
             
         },
         {
-            // 4: Mega Landlords
-            id: 'mega_landlords_iii',
+            // 4: Mega Hosts
+            id: 'mega_hosts_iii',
             alignment: 'left',
             hidden: false,
             title: "Unidades de Airbnb pertenecientes a los Mega-Hosts en Septiembre del 2024",
@@ -696,8 +695,8 @@ var config = {
         },
 
         {
-            // 5: 100+ Landlords
-            id: 'hundred_plus_landlords_text',
+            // 5: 100+ Hosts
+            id: 'hundred_plus_hosts_text',
             alignment: 'center',
             hidden: false,
             title: 'El Ascenso de los Mega-Caseros',
@@ -799,8 +798,8 @@ var config = {
         },
 
         {
-            // 5: 100+ Unit Landlords
-            id: 'hundred_plus_landlords_dec2019',
+            // 5: 100+ Unit Hosts
+            id: 'hundred_plus_hosts_dec2019',
             alignment: 'left',
             hidden: false,
             title: 'Mega-Caseros: Septiembre 2019',
@@ -903,8 +902,8 @@ var config = {
 
      
         {
-            // 5: 100+ Unit Landlords
-            id: 'hundred_plus_landlords_dec2023',
+            // 5: 100+ Unit Hosts
+            id: 'hundred_plus_hosts_dec2023',
             alignment: 'left',
             hidden: false,
             title: 'Mega-Caseros : Septiembre 2024',
