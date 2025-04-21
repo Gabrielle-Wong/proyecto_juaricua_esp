@@ -217,7 +217,7 @@ var config = {
             hidden: false,
             title: 'Unidades de Airbnb en la Alcaldía Cuauhtémoc',
             
-            description: 'A partir de este tiempo (2020), se comienza a popularizar el contenido generado por los influencers en redes sociales.  Al mismo tiempo se observa un incremento en el número de alquileres de corta estancia, particularmente en la plataforma Airbnb. Estos alquileres ubicados en su mayoría en alcaldías como Cuauhtémoc, colonias como La Condesa y la Roma, se volvieron epicentros  de los Airbnb. <br> <br> La base de datos usada en la presente investigación  proviene de  Inside Airbnb, un proyecto que extrae datos regularmente de la plataforma de Airbnb en distintas ciudades del mundo. En la Ciudad de México los datos están disponibles a partir del 2019. <br> <br> A pesar que las Colonias Condesa y Roma fueron epicentros para el Airbnb antes de la pandemia, el incremento de unidades alojamiento de airbnb en la Colonia Cuauhtémoc, incrementó en un 71% entre 2019 y 2024. ',
+            description: 'A partir de este tiempo (2020), se comienza a popularizar el contenido generado por los influencers en redes sociales.  Al mismo tiempo se observa un incremento en el número de alquileres de corta estancia, particularmente en la plataforma Airbnb. Estos alquileres ubicados en su mayoría en alcaldías como Cuauhtémoc, colonias como La Condesa y la Roma, se volvieron epicentros  de los Airbnb. <br> <br> La base de datos usada en la presente investigación  proviene de   <a href="https://insideairbnb.com/about/" style="color:#ffffff;" target="_blank">Inside Airbnb</a>, un proyecto que extrae datos regularmente de la plataforma de Airbnb en distintas ciudades del mundo. En la Ciudad de México los datos están disponibles a partir del 2019. <br> <br> A pesar que las Colonias Condesa y Roma fueron epicentros para el Airbnb antes de la pandemia, el incremento de unidades alojamiento de airbnb en la Colonia Cuauhtémoc, incrementó en un 71% entre 2019 y 2024. ',
             legend: '<em> Unidades de Airbnb localizadas en la Alcaldía Cuauhtémoc 2024. Cada punto rosa representa una unidad de Airbnb. Datos retribuidos de InsideAirbnb, 2024 <br> <br> Este es un mapa interactivo. Puedes acercar y desplazar. </em>',
             // image: './images/airbnb_points.png',
 
@@ -408,9 +408,9 @@ var config = {
             id: 'mega_hosts',
             alignment: 'center',
             hidden: false,
-            title: 'Crecimiento de los \'Mega-Hosts\'',
+            title: 'Crecimiento de los mega-anfitriones',
             // image: './images/tulum_beach.jpg',
-            description: 'Este periodo marca un cambio en el modelo de negocios de los alquileres de corta estancia, de igual manera observamos el incremento de <em> Hosts </em> que manejan múltiples unidades -desde decenas hasta cientos de Airbnbs-. Estos <em> Hosts </em>multi-unidad han sido los principales actores en el incremento de unidades de Airbnb disponibles en la Ciudad de México. Entre Abril 2019 y Septiembre 2024, el número de unidades manejadas por un <em> host </em>disminuyeron de 9,749 a 8,440, mientras que el número de unidades manejadas por <em> host </em>multi-unidad incrementaron en un 67% de 10,819 a 18,142. <br> <br> Estos mapas retratan el incremento en el número de unidades de Airbnb entre 2019 y 2023, particularmente aquellas unidades pertenecientes a los mega-hosts, y su incremento. ',
+            description: 'Este período también marca un cambio en el modelo de negocio de alquiler a corto plazo, ya que se observa un aumento de los propietarios de Airbnb que gestionan múltiples unidades de alojamiento, desde docenas hasta cientos de unidades. Estos anfitriones de \'múltiples unidades\' han sido los principales impulsores de los aumentos en los registros en la Ciudad de México. Entre abril de 2019 y septiembre de 2024, mientras que el número de listados (registros) de anfitriones de una sola unidad disminuyó de 9,749 a 8,440, el número de listados de anfitriones de unidades múltiples se disparó 67%, de 10,819 a 18,142. <br> <br> Estos mapas (los mapas que se despliegan más abajo muestran) retratan el incremento en el número de unidades de Airbnb entre 2019 y 2023, haciendo hincapié en  aquellas unidades pertenecientes a los mega-anfitriones, y su incremento.',
             
             location: {
                 center: [-99.18165, 19.42285],
@@ -499,7 +499,7 @@ var config = {
             id: 'mega_hosts_ii',
             alignment: 'left',
             hidden: false,
-            title: "Unidades de Airbnb pertenecientes a los Mega-Hosts en Septiembre del 2019. ",
+            title: "Unidades de Airbnb pertenecientes a los mega-anfitriones en Septiembre del 2019.",
             // description: "Shown based on number of units owned by the unit's host.",
             image: './images/number_of_units_owned_legend.png',
             legend: '<em> Este es un mapa interactivo. Puedes acercar y desplazar. </em>',
@@ -600,7 +600,7 @@ var config = {
             id: 'mega_hosts_iii',
             alignment: 'left',
             hidden: false,
-            title: "Unidades de Airbnb pertenecientes a los Mega-Hosts en Septiembre del 2024",
+            title: "Unidades de Airbnb pertenecientes a los mega-anfitriones en Septiembre del 2024",
             image: './images/number_of_units_owned_legend.png',
             legend: '<em> Este es un mapa interactivo. Puedes acercar y desplazar.  </em>',
 
@@ -699,9 +699,9 @@ var config = {
             id: 'hundred_plus_hosts_text',
             alignment: 'center',
             hidden: false,
-            title: 'El Ascenso de los Mega-Caseros',
+            title: '¿Qué son los mega-anfitriones?',
             // image: './images/tulum_beach.jpg',
-            description: 'Algunos <em> mega-hosts </em> emergen en este periodo, y han manejado hasta 1,500 unidades al mismo tiempo. Dos <em> mega-hosts </em> ­­­destacan en este proceso por el número de unidades que manejan: Mr.W y Virtual Homes. <br> <br> Ambos, junto con otros <em> mega-hosts </em>,  manejan a veces edificios cuales son únicamente utilizados como Airbnb. Este fenómeno plantea las preguntas : <br> <br> <strong> ¿Quiénes vivían en estos edificios antes de volverse Airbnb? ¿Qué impacto tienen los Airbnb en las comunidades donde se ubican? </strong>',
+            description: 'En este periodo han surgido algunos mega-anfitriones  que han llegado a gestionar más de 1.500 unidades de alojamiento en total en 2024. Dos mega-anfitriones destacan por el gran número de unidades que gestionan: Mr. W y Virtual Homes [2]. <br> <br> Estos dos, junto con varios otros mega-anfitriones, gestionan a menudo edificios enteros de departamentos con unidades Airbnb. Este fenómeno plantea las preguntas: <br> <br> <strong>¿Quién vivía en estos edificios antes de que se convirtieran en Airbnbs y qué impacto ha tenido Airbnb en el vecindario circundante?</strong>',
             
             location: {
                 center: [-99.18165, 19.42285],
@@ -802,7 +802,7 @@ var config = {
             id: 'hundred_plus_hosts_dec2019',
             alignment: 'left',
             hidden: false,
-            title: 'Mega-Caseros: Septiembre 2019',
+            title: 'Mega-Anfitriones: Septiembre 2019',
             image: "./images/megalandlord_legend.png",
             legend: '<em> Este es un mapa interactivo. Puedes acercar y desplazar.  </em>',
             location: {
@@ -906,7 +906,7 @@ var config = {
             id: 'hundred_plus_hosts_dec2023',
             alignment: 'left',
             hidden: false,
-            title: 'Mega-Caseros : Septiembre 2024',
+            title: 'Mega-Anfitriones: Septiembre 2024',
             image: "./images/megalandlord_legend.png",
             legend: '<em> Este es un mapa interactivo. Puedes acercar y desplazar.  </em>',
             location: {
@@ -1011,7 +1011,7 @@ var config = {
             hidden: false,
             title: 'La Colonia Juárez',
             // image: './images/tulum_beach.jpg',
-            description: 'La Colonia Juárez es uno de los vecindarios donde los alquileres de Airbnb se han incrementado exponencialmente durante los últimos años. En el año 2019 habían listados 612 Airbnb en el vecindario, para el 2024 hay 1,237 unidades. En tan solo 5 años se han agregado efectivamente 600 unidades que ya no son utilizadas para alquileres de largo plazo. 600 familias han sido desplazadas de sus hogares para hacer espacio a los Airbnb. ',
+            description: 'La Colonia Juárez es uno de esas colonias donde el número de alquileres Airbnb se ha disparado en los últimos años. Mientras que en 2019 sólo había 612 unidades de Airbnb en esta colonia, a partir de junio de 2024, hay 1,200 unidades. Esto significa que en cinco años hay 600 departamentos menos que ya no están disponibles como alquileres a largo plazo: 600 familias han sido expulsadas de sus hogares para dar paso a estos Airbnbs.',
             
             location: {
                 center: [-99.17199, 19.42819],
@@ -1202,7 +1202,7 @@ var config = {
             title: '[ 06600 ] Plataforma Vecinal y Observatorio de la Colonia Juárez',
             imageCaption: 'One of the logoes used by the organization.',
             image: './images/06600.jpg',
-            description: 'Los residentes de la Colonia Juárez, localmente conocidos como Juaricuas, han resistido activamente el desplazamiento y la reurbanización de su vecindario por más de una década. Juaricua, en este contexto, se refiere a los vecinos y vecinas de la Colonia Juárez que luchan por su derecho a una vivienda estable, segura y autónoma en su colonia. <br> <br> De esté grupo de vecinos nace la Plataforma Vecinal y Observatorio de la Colonia Juárez (06600 proviene de el código postal) que desde el 2014, han defendido el vecindario De desarrolladoras inmobiliarias, y de igual manera mantener la continua presencia de sus residentes. El grupo, está organizado por mismo vecinos de la Juárez, y se organizan entorno a las necesidades de la comunidad, conectando luchas y proponiendo soluciones de manera colaborativa, creativa, proactiva y colectiva. Se enfocan en compartir y reproducir métodos para combatir el blanqueamiento por despojo. Un término proveniente del activismo Juaricua, que identifica a un proceso similar pero no idéntico a lo que entiende el anglicismo “gentrificación”. <br> <br> Este grupo fue una parte crucial en organizarse en contra del Corredor Cultural Chapultepec en 2015, al igual de tener un rol principal en el 2019, cuando se incorporó el Artículo 59 el cual define el Derecho Humano a Vivienda Digna, y el Artículo 60 el cual refiere a los desplazamientos forzados de residentes con arraigo, dentro de la Constitución de Derechos Humanos en la Ciudad de México. Este grupo se enfoca en evitar el desplazamiento tanto de residentes como negocios en el barrio y los efectos que tienen en la pérdida de empleos. Los Juaricuas también intentan mitigar y contrarrestar los efectos que ha tenido el mercado capitalista de la vivienda en el terreno y propiedades en la Ciudad de México, lo que ha impulsado el desplazamiento y el incremento de precio en las rentas y propiedades del vecindario. ',
+            description: 'Los residentes de la Colonia Juárez, conocidos localmente como Juaricuas, llevan más de una década resistiendo activamente al desplazamiento y a la reurbanización de su colonia. Juaricuas, en este contexto, se refiere a los inquilinos y dueños de inmuebles de la Colonia Juárez, que luchan por el derecho a una vivienda segura, estable y autónoma en su colonia. <br> <br> De este grupo de vecinos surgió en 2014 la Plataforma y Observatorio Vecinal [06600] Colonia Juárez (06600 es el código postal), un espacio dedicado a defender a la colonia de los desarrolladores, y a garantizar la permanencia de sus habitantes. El grupo es liderado por vecinos de la Juárez, organizándose en torno a las necesidades de la comunidad, conectando luchas y proponiendo soluciones de manera colaborativa, creativa, proactiva y colectiva. Se centran en compartir y reproducir métodos activistas para combatir el blanqueamiento por despojo, un término que surge del activismo juaricua y que denomina a este proceso similar, aunque no idéntico, a lo que en occidente se denomina «gentrificación». <br> <br> El grupo fue un actor clave en la organización contra el proyecto del Corredor Cultural Chapultepec en 2015, y también desempeñó un papel importante en la incorporación en 2019 del Artículo 59, que define el Derecho Humano a una Vivienda Adecuada, y el Artículo 60, que aborda el desplazamiento forzado de residentes establecidos desde hace mucho tiempo, en la Ley Constitucional de Derechos Humanos de la Ciudad de México. Los esfuerzos del grupo se centran en evitar el desplazamiento de residentes y pequeñas empresas de la colonia, que también alimenta la pérdida de puestos de trabajo. Pretenden contrarrestar y mitigar los efectos del mercado inmobiliario sobre el suelo y el territorio en Ciudad de México, que alimentan los desplazamientos forzosos y elevan los precios de los alquileres en el barrio.',
             
             location: {
                 center: [-99.17199, 19.42819],
@@ -1296,10 +1296,10 @@ var config = {
             id: 'dinamarca77',
             alignment: 'left',
             hidden: false,
-            title: 'El Caso de Dinamarca 77',
+            title: 'El Caso de la calle Dinamarca 77',
             image: './images/dinamarca.jpg',
             imageCaption: 'Dinamarca 77 en 2024.', 
-            description: 'El predio de Dinamarca 77 es uno de los edificios en la Colonia Juárez en donde los efectos del capitalismo en el mercado de bienes raíces se volvieron más evidentes. Un estimado de 12 familias fueron forzosamente desalojadas de sus hogares en 2018. Este edificio comenzó sus operaciones como Airbnb en Octubre del 2023 con 11 unidades listadas en el mercado. El propietario y host  de este edificio es Mr. W, uno de los <em> mega-hosts </em> de la Ciudad de México. <br> <br> Mr. W fue establecido en el 2017 por los hermanos Luis Carlos Weber Zetina y Carlos Enrique Weber Zetina. Hasta el 2019, su presencia en la alcaldía Cuauhtémoc era relativamente pequeña (< 50 unidades) desde entonces han crecido y ahora manejan hasta 350 unidades en la Alcaldía Cuauhtémoc. La compañía no es dueña directamente de las unidades, en realidad son intermediarios o <em> property managers </em>. Responsables de mantener relación entre los dueños y los potenciales  <em>guests </em> al igual de manejar la publicidad a cambio de una porción de la renta mensual. Un portavoz de la compañía estima que un Airbnb puede generar de un 30%-40% más de ganancia en comparación con las unidades tradicionales de renta [3]. Esto se ha vuelto un incentivo para desalojar familias y entregar las llaves de sus departamentos a <em> mega-hosts </em> como Mr. W. ',
+            description: 'Dinamarca 77 es un edificio de la Colonia Juárez donde los efectos del mercado inmobiliario son evidentes. Se estima que 12 familias fueron desalojadas por la fuerza en abril de 2018.  Este edificio abrió con 11 unidades de alojamiento AirBnb en octubre de 2023. Son propiedad de Mr. W, el mega-anfitrión que más unidades posee en la Ciudad de México. <Br> <br> Mr. W fue fundado en 2017 por los hermanos Luís Carlos Weber Zetina y Carlos Enrique Weber Zetina. Hasta 2019, su presencia en Cuauhtémoc era relativamente pequeña (< 50 unidades), pero desde entonces han crecido hasta albergar más de 350 unidades en Cuauhtémoc. La empresa no es propietaria directa de estas unidades. Más bien, son administradores de propiedades que sirven como intermediarios entre los propietarios y los huéspedes potenciales, manejando la publicidad y la comunicación con los huéspedes a cambio de una parte de los ingresos por alquiler. Un portavoz de la empresa calcula que Airbnb puede hacer que un propietario obtenga entre un 30% y un 40% más de ingresos por su unidad en comparación con los alquileres tradicionales [3]. Este es un claro incentivo para que los caseros (propietarios)  desalojen a las familias y entreguen las llaves a gestores como el Mr. W.',
             
             location: {
                 center: [-99.15789, 19.42543],
@@ -1393,10 +1393,10 @@ var config = {
             id: 'napoles35_londres49',
             alignment: 'left',
             hidden: false,
-            title: 'La Caja de Pandora: Londres 49 y Nápoles 35',
+            title: 'La Caja de Pandora: Londrés 49 y Nápoles 35',
             // imageBeforeDescription: "./images/juarez_skyline.png",
            
-            description: 'Otros dos edificios de la Colonia Juárez: Nápoles 35 y Londres 49 fueron también sitios de desalojo forzado: Estimamos que un total de 18 familias fueron desplazadas de los dos edificios en Diciembre de 2020. Activistas Comunitarios como la [ 06600 ]- Plataforma Vecinal y Observatorio de la Colonia Juárez grabaron los testimonios de los arrendatarios desplazados, contando lo que pasó el día que los residentes de Nápoles 35 fueron desplazados.',
+            description: 'Otros dos edificios de la Colonia Juárez, Nápoles 35 y Londres 49, también fueron lugares de desalojo forzoso: estimamos que 18 familias fueron desalojadas por la fuerza de los dos edificios en diciembre de 2020. Activistas comunitarios de la 06600 Plataforma Vecinal y Observatorio de la Colonia Juárez grabaron testimonios con inquilinos poco después de que fueran desalojados por la fuerza del edificio, relatando lo que ocurrió el día en que los residentes de Nápoles 35 fueron desplazados.',
             location: {
                 center: [-99.16067, 19.42710],
                 zoom: 18.5,
@@ -1489,14 +1489,14 @@ var config = {
             id: 'napoles35_londres49_2',
             alignment: 'center',
             hidden: false,
-            title: 'Uno los testimonios proviene de un inquilino:',
+            title: 'Como describió un inquilino,',
             // imageBeforeDescription: "./images/juarez_skyline.png",
             audio: "./media/testimonio_1.mp3",
-            audioCaption: "La siguiente cita es una versión condensada de las declaraciones dadas por la inquilina en Diciembre, 2020.",
+            audioCaption: "La cita anterior es una versión condensada de lo que el inquilino relató el 4 de diciembre de 2020 (grabación sólo en español).",
             image: './images/eviction_1.png',
-            imageCaption: 'Captura de pantalla proveniente de un vídeo de la plataforma [ 06600 ] documentando el día del desalojo.',
+            imageCaption: 'Captura de pantalla de un vídeo grabado por los organizadores de [ 06600 ] Plataforma que documenta el desalojo del 4 de diciembre de 2020.',
         
-            description: '<em>"Nos vinieron a lanzar (sin previo aviso, sin mostrar ninguna notificación o papel que nos iban a sacar…Todas nuestras pertenencias la echaron a la calle y que queda se llevaron… Hubo muchos granaderos, y mucha gente que traían. Gente que es la que está sacando las cosas y los granaderos que se retiraron luego luego…Hubo muchos granaderos, y mucha gente que traían. Gente que es la que está sacando las cosas y los granaderos que se retiraron luego luego…No, no hubo violencia. Hasta después que se salieron, les chiflaron y se salieron todos"</em>',
+            description: '<em>«Vinieron a echarnos sin previo aviso. No hubo ningún tipo de notificación o documento previo que nos avisara de antemano... Tiraron todas nuestras pertenencias a la calle y robaron lo que quedaba dentro... Había muchos policias antidisturbios y otras personas que trajeron con ellos. La gente que les acompañaba era la que sacaba las cosas, y la policía se retiró bastante rápido... Al cabo de un rato alguien silbó y entonces se fueron todos, pero más tarde volvieron y empezaron a destruir y robar cosas».</em>',
             location: {
                 center: [-99.16067, 19.42710],
                 zoom: 18.5,
@@ -1583,13 +1583,13 @@ var config = {
             id: 'napoles35_londres49_3',
             alignment: 'center',
             hidden: false,
-            title: 'Otro inquilino comentó:',
+            title: 'Otro inquilino relató:',
             // imageBeforeDescription: "./images/juarez_skyline.png",
             audio: "./media/testimonio_2.mp3",
-            audioCaption: "La siguiente cita es una versión condensada de las declaraciones dadas por la inquilina en Diciembre, 2020.",
+            audioCaption: "La cita anterior es una versión condensada de lo que el inquilino relató el 4 de diciembre de 2020 (grabación sólo en español).",
             image: './images/eviction_2.png',
-            imageCaption: 'Captura de pantalla proveniente de un vídeo de la plataforma [ 06600 ] documentando el día del desalojo.',
-            description: '<em>“He vivido 35 años en Nápoles 35… Hoy arbitrariamente nos desalojaron, jamás recibimos una notificación para poder defendernos es una brutalidad, es un abuso…Entonces desafortunadamente no tengo aquí en el distrito federal a donde ir a residir…  Yo soy diabética, entonces soy de la tercera edad, tengo una discapacidad motriz, pero no les importo nada…Hay unas personas igual que . Una persona que es invidente, con Alzheimer…<strong> ¿que representa para ustedes quedarse sin casa durante la pandemia? </strong>”</em>',
+            imageCaption: 'Captura de pantalla de un vídeo grabado por los organizadores de [ 06600 ] Plataforma que documenta el día del desalojo',
+            description: '<em>«Vivo aquí desde hace 35 años, en Nápoles 35... Hoy nos han desalojado arbitrariamente. Nunca recibimos una notificación, una oportunidad de defendernos de esta brutalidad. Es criminal...No tengo a dónde ir aquí en la Ciudad de México, un lugar donde vivir, no tengo a dónde ir después de esto...tal vez podría pedirle a mi hijo que me quede con él, pero está fuera de la Ciudad de México. Soy diabético. Soy de la tercera edad. Tengo una discapacidad, pero no les importó. Había residentes aquí con condiciones similares, una persona ciega, una persona con Alzheimer... Ahora, estamos en medio de una pandemia. ¿Qué significa para ti quedarte sin casa durante la pandemia de COVID-19?»</em>',
             location: {
                 center: [-99.16067, 19.42710],
                 zoom: 18.5,
@@ -1685,8 +1685,8 @@ var config = {
            
             // imageBeforeDescription: "./images/juarez_skyline.png",
             image: './images/pandora.jpg',
-            imageCaption: 'Los edificios de Londres 49 y Nápoles 36 después de las renovaciones.',
-            description: 'Como comentan los inquilinos  desplazados, los desalojos forzados ocurrieron sin previo aviso. No tuvieron la oportunidad de encontrar o preparar alojamientos alternativos. Sus pertenencias fueron tiradas a la calle y/o robadas, y del mismo modo tuvieron que volver a construir sus vidas. Personas de la tercera edad y/o con discapacidades fueron dejados a su suerte sin ningún lugar a donde ir, sin recursos ni ayuda con la transición u otras opciones de vivienda. Una de las inquilinas de Nápoles 35 llevaba viviendo en el predio por 35 años, su vida cambió en un instante. La mayoría de los inquilinos no pudieron darse el lujo o permitirse quedarse en la colonia Juárez. El [ 06600 ] -Plataforma Vecinal y Observatorio de la Colonia Juárez y organizadores han perdido el contacto con muchos vecinos desalojados. <br> <br> Posterior a los desalojos de Diciembre del 2020, desarrolladores inmobiliarios renovaron drásticamente los dos edificios y en Octubre del 2023, el <em> mega-host” </em> Virtual Homes comenzó a promocionar el edificio bajo en nombre de <em> Pandora </em> y abrieron sus puertas para alojamiento de corto plazo. Promocionando 40 unidades de Airbnb, Pandora no solo participó en el desalojo de las familias, sino al mismo tiempo alteró dramáticamente el vecindario donde se ubica.',
+            imageCaption: 'LLondres 49 y Nápoles 35 tras la renovación.',
+            description: 'El desalojo forzoso de estos inquilinos se produjo sin previo aviso: no tuvieron tiempo de prepararse ni de buscar alojamiento alternativo. Sus pertenencias fueron arrojadas a la calle y/o robadas, y tuvieron que rehacer sus vidas. Los inquilinos mayores y discapacitados se quedaron sin un lugar adonde ir y sin recursos para ayudarles en la transición a otras opciones de vivienda. El inquilino antes citado llevaba 35 años viviendo en Nápoles 35, y en un instante su vida cambió para siempre. La mayoría de los inquilinos de estos edificios no podían permitirse permanecer en la Colonia Juárez, y los organizadores de 06600 Plataforma Vecinal y Observatorio de la Colonia Juárez han perdido el contacto con muchos de ellos. <br> <br> Después de estos desalojos de diciembre de 2020, los desarrolladores renovaron drásticamente estos dos edificios, y en octubre de 2023, este edificio administrado por Virtual Homes, rebautizado <em>Pandora</em>, abrió sus puertas. Anunciando 40 unidades Airbnb, Pandora no solo ha alimentado el desalojo de estas 18 familias en medio de una pandemia, sino que también ha alterado drásticamente el paisaje del vecindario circundante.',
             location: {
                 center: [-99.16067, 19.42710],
                 zoom: 18.5,
@@ -1783,7 +1783,7 @@ var config = {
             // title: '',
         
             image: './images/rent_graph.png',
-            description:'Según los mapas y los testimonios personales, Airbnb ha tenido un tremendo impacto en las vidas diarias de los habitantes de la alcaldía Cuauhtémoc. En el caso de las remodelaciones de Dinamarca 77 y <em> Pandora </em>, la vida de los inquilinos han sido transformadas. Primero a través de los desalojos violentos que se vieron forzados a vivir en carne propia, pero también al no poder encontrar vivienda dentro de sus limitaciones en la Colonia Juárez. <br> <br> Datos disponibles [4] acerca de los alquileres promedio en la Colonia Juárez muestran un incremento de precios diferente al de otras colonias y la Ciudad de México en sí. Se observa este incremento especialmente en 2022, después de que el turismo global se “restableciera” al eliminarse las restricciones generadas post Covid-19. Este incremento está relacionado en parte por la reducción de unidades habitacionales disponibles para alquiler, ahora presentadas como alquiler de corta estancia y precios elevados. <br> <br> Esto es causado en parte por el incremento de Airbnbs en la zona ya que desestabilizan el precio de las unidades de renta, y al mismo tiempo eliminan unidades habitacionales del mercado. Unidades que después reingresan al mercado como alojamiento de corto plazo y tarifas de alojamiento elevadas. La gráfica representa la importancia que tiene el nivel colonia cuando se refiere al impacto que tiene Airbnb en los precios de renta, ya que usar datos generales de toda la ciudad, no visibiliza el impacto generado por Airbnb.',
+            description:'Como ilustran estos mapas y testimonios personales, Airbnb ha tenido un tremendo impacto en la vida cotidiana de los residentes de Ciudad de México en el núcleo central de la ciudad. En el caso de reurbanizaciones de Airbnb como Dinamarca 77 y Pandora, las vidas de los inquilinos se han visto alteradas, primero por el trauma de los desalojos violentos que se vieron obligados a sufrir, y después por la dificultad que suelen tener los residentes para encontrar una vivienda acorde con su presupuesto en la colonia. <br> <br> Los datos disponibles [4] sobre los alquileres medios en la Colonia Juárez muestran que los alquileres aumentaron a un ritmo más rápido en comparación con la Ciudad de México en su conjunto, en particular durante el período en que los anuncios de Airbnb se añadieron rápidamente al mercado. Observamos esto especialmente en 2022, cuando el turismo global «se recuperó» tras las restricciones de viajes internacionales de la era COVID-19. Este aumento podría deberse en parte a que Airbnb sacó viviendas del mercado local y las convirtió en alquileres a corto plazo con costes nocturnos inflados. Este gráfico también revela la importancia de mirar a escala de barrio para determinar el impacto de Airbnb en los precios de alquiler: Ciudad de México es demasiado extensa para utilizar datos de alquiler de toda la ciudad que reflejen el impacto de Airbnb. Otras colonias con un elevado número de registros de Airbnb muestran patrones similares.',
             
             location: {
                 center: [-99.17276, 19.42655],
@@ -1876,7 +1876,100 @@ var config = {
             title: 'Blanqueamiento por Despojo',
         
             image: './images/pandora_streetscape.jpg',
-            description:'El incremento de las unidades de Airbnb también impacta los tipos de negocios que hay en la zona, con cafés, restaurantes, tiendas y boutiques de lujo que emergen para satisfacer las necesidades de los consumidores de élite y/o extranjeros [5]. Esto es abiertamente observado al caminar por la colonia Juárez. La emergencia de edificios Airbnb también significa el desplazamiento forzado de locales comerciales. Por ejemplo, la conversión de Dinamarca 77 a unidades de Airbnb también ha desplazado económicamente restaurantes y tienditas de la esquina a nivel calle, transformando estos espacios comerciales en boutiques de lujo. <br> <br> El <em> blanqueamiento  </em> de estos lugares también ha creado una representación alternativa del vecindario, una versión refinada de las viejas fachadas porfirianas. Nosotros junto a la [ 06600 ]- Plataforma Vecinal y Observatorio de la Colonia Juárez llamamos a este proceso  <em> blanqueamiento por despojo </em>  [6]. Blanqueamiento en estos lugares no solo se refiere al proceso donde inquilinos extranjeros llegan a los edificios, pero también como los edificios son pintados en escalas de color “neutrales”, indicando que el despojo habitacional no solo es un proceso económico pero también es un proceso racial. <br> <br> Otras instancias de despojos masivos en la Colonia Juárez, como fue la expulsión de 20 familias Mazahuas de Turín 46 en Octubre del 2021, ilustran cómo estos procesos de desalojo violento y forzado han sido normalizados en las vidas de aquellos que se les considera menor valor en los extensos procesos de racialización y territorialidad en México [7]. Considerando que los inquilinos de bajos recursos son aquellos que son expulsados para crear espacio a las élites extranjeras y nacionales, en este contexto la Colonia Juárez es inscrita como exclusiva, un espacio blanqueado que tiene un impacto visceral de los arrendatarios en su día a día.',
+            description:'El aumento de unidades Airbnb también impacta el tipo de negocios que surgen en una colonia determinada, con restaurantes, cafés, tiendas y boutiques de mayor precio que satisfacen los gustos de los consumidores de élite y los turistas extranjeros [5]. Esto es evidente en la Colonia Juárez. La aparición de edificios Airbnb también suele conllevar el desplazamiento de negocios comerciales. Por ejemplo, la conversión de Dinamarca 77 a unidades Airbnb también desplazó un restaurante de Comida Corrida y una tienda de barrio a pie de calle, transformando estos espacios comerciales en varias boutiques de lujo.<br><br>El blanqueamiento de estos edificios también crea una representación alternativa de la colonia, una fachada pulida que recuerda a épocas pasadas de la élite mexicana. Los organizadores de 06600 Plataforma Vecinal y Observatorio de la Colonia Juárez lo llaman blanqueamiento por despojo [6]. El blanqueamiento, aquí, se refiere no sólo al encalado literal de los edificios después de que los inquilinos son desposeídos, pintándolos con esquemas de colores suaves y “neutrales”, sino también a las formas en que el despojo de viviendas no es sólo un proceso económico, sino racializado.',
+            
+            location: {
+                center: [-99.17276, 19.42655],
+                zoom: 13.75,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'easeTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep24_megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep19_megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'sep24_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'sep24',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
+            ],
+            onChapterExit: [
+              
+                
+            ]
+            
+        },
+
+        {
+            // 10.1: Neighbourhood Impact - INDG Tenants
+            id: 'neighbourhood_impact_indg',
+            alignment: 'center',
+            hidden: false,
+            // title: 'Blanqueamiento por Despojo',
+        
+            // image: './images/pandora_streetscape.jpg',
+            description:'La dinámica racial de estos procesos de desplazamiento se vuelve más clara cuando prestamos atención a las formas en que los inquilinos indígenas de Colonia Juárez han experimentado instancias especialmente brutales de desalojo forzoso en el vecindario. Colonia Juárez es el hogar de una multitud de residentes indígenas de diversas naciones, especialmente los pueblos Ñañú, Mazahua y Triqui. Los residentes indígenas han notado que experimentan racismo en el vecindario y a menudo son tratados como si no pertenecieran a esta parte de la ciudad [7]. Sin embargo, muchas familias se resisten al desplazamiento e insisten en su derecho a permanecer en La Juárez - [ 06600 ] ha documentado los desalojos de familias indígenas en los últimos diez años en la Colonia Juárez, tanto pasados ​​como actuales: <ul> <li> En 2014, más de 20 familias indígenas fueron desalojadas y desplazadas de Marsella 58, en la esquina de Nápoles. En 2018, más de 25 familias indígenas fueron desplazadas de Roma 18 por un brutal desalojo. Tras ocho años ocupando las calles y viviendo en un campamento, su resistencia triunfó y lograron obtener vivienda del Instituto de Vivienda (INVI). En 2019, más de 28 familias indígenas fueron desplazadas del edificio Londres 9 por un violento desalojo. En octubre de 2021, más de 22 familias indígenas mazahuas fueron expulsadas violentamente de sus hogares en Turín 46, pero resistieron lo que consideraron un desalojo ilegal y lograron permanecer en el edificio. Hoy luchan para reclamar la expropiación forzosa y construir viviendas sociales en el terreno. En 2024, tres familias indígenas fueron desplazadas de Turín 41. Actualmente, las familias indígenas que viven en Abraham González 66 también buscan reclamar el derecho de dominio eminente y construir viviendas sociales en el sitio. Estos casos de desalojo masivo violento son más frecuentes y se normalizan para vidas consideradas menos valiosas dentro de procesos más amplios de racialización y territorialización en México [7]. A medida que los inquilinos mexicanos de bajos ingresos son expulsados ​​para crear locales para las élites extranjeras y nacionales, la Colonia Juárez se reinscribe efectivamente como un espacio exclusivo y blanqueado que tiene un impacto visceral en la vida cotidiana de los inquilinos restantes.',
             
             location: {
                 center: [-99.17276, 19.42655],
@@ -1968,8 +2061,8 @@ var config = {
             hidden: false,
             title: '¿Cómo ha respondido la Ciudad de México a los alquileres de corto plazo?',
             image: './images/digital_nomad_announcement.jpg',
-            imageCaption: 'Captura de pantalla, tomada de las redes sociales del Gobierno de la Ciudad de México, promoviendo su apoyo a trabajadores remotos.',
-            description: 'El blanqueamiento de Airbnb y el impacto que tiene en las poblaciones locales no es natural ni inevitable, pero un proceso que se ha ejercido intencionalmente. En Octubre 2022 Airbnb anunció que tendría una colaboración con la ciudades de México anunciando explícitamente querer “promocionar la ciudad como un centro global para los trabajadores remotos… y como Capital del turismo creativo”  [8]. De igual manera el anuncio afirmó que Airbnb proveería oportunidades económicas a los mexicanos (por medio de la industria del turismo). Sin embargo desde ese anuncio la Ciudad de México ha dado marcha atrás al recibimiento de nómadas digitales. <br> <br> En 2024 el Gobierno de la Ciudad de México implementó nuevas regulaciones relacionadas a Airbnb y otras plataformas de alquiler a corto plazo, llamando a la creación de un padrón de anfitriones donde estarían documentados los números de identificación fiscal y  registro de propiedad [9] . En Septiembre 2024 el Gobierno de la Ciudad de México establece que mientras el padrón no ha sido finalizado, los <em> hosts </em> no podrán renovar sus licencias de operación si las tasas de ocupación son mayores al 50%, al igual que restringir su habilidad de listar nuevas propiedades o extender períodos de alquiler.  <br> <br> La compañía de Airbnb ha financiado campañas locales donde los hosts son retratados como negocios familiares que benefician a las economías locales. Sin embargo las unidades listadas desde el 2022 en Airbnb no son negocios locales, pero propiedades manejadas por <em> mega-landlords </em> cuya presencia ha incrementado los precios de renta en la Colonia Juárez y en otras colonias donde hay una presencia grande de Airbnb.',
+            imageCaption: 'Captura de pantalla de las redes sociales del Gobierno de la Ciudad de México, donde se anuncia su apoyo a los trabajadores remotos.<Br> <br> Nómadas Digitales en la Ciudad de México. El trabajo remoto genera un impacto transversal en la sociedad, desde los recursos humanos hasta diferentes sectores de nuestra economía. <br> br> En la #ConferenciaDePrensa del #AlcaldeDeLaCiudadDeMéxico, se afirmó que la alianza entre @GobCDMX, @airbnb_mx y @UNESCOMexico impulsará el turismo creativo, que incluirá a los habitantes de la Ciudad de México, ya que generará nuevos empleos e impulsará la economía local.',
+            description: 'El crecimiento de Airbnb y su impacto en las poblaciones locales no son naturales ni inevitables. Más bien, el blanqueamiento de la Colonia Juárez y otras zonas de la Ciudad de México se ha buscado intencionalmente. En octubre de 2022, Airbnb anunció su colaboración con el gobierno de la Ciudad de México para "promocionar la ciudad como un centro global para trabajadores remotos... y la Capital del Turismo Creativo" [8]. Si bien el anuncio afirmaba que Airbnb brindaría oportunidades económicas a los mexicanos (a través de empleos en la industria turística), la Ciudad de México ha cambiado su perspectiva sobre los nómadas digitales, al menos en lo que respecta a sus alquileres de vivienda a corto plazo <br> <br> En 2024, el gobierno de la Ciudad de México implementó nuevas regulaciones con respecto a Airbnb y otras plataformas de alquiler a corto plazo, exigiendo la creación de una lista de todos los anfitriones (hosts) de alquileres a corto plazo, documentando su Número de Identificación Fiscal (NIF) junto con la acreditación o propiedad de la unidad [9]. En septiembre de 2024, el gobierno municipal declaró que, si bien los anuncios de hosts no se habían completado, estos no podrían renovar sus licencias si superan el 50 % del año, si intentan anunciar propiedades adicionales o si extienden los períodos de alquiler. <br> <br> En respuesta a estas regulaciones, Airbnb ha financiado campañas e informes locales que presentan a sus hosts como negocios familiares cuyas unidades de alquiler benefician las economías locales y sustentan sus medios de vida; sin embargo, como muestra nuestra investigación, el marcado aumento de unidades en Airbnb desde 2022 no se debe a propietarios familiares, sino a mega-anfitriones cuya presencia ha incrementado el costo del alquiler en Colonia Juárez y en otras colonias con una gran presencia de Airbnb.',
             
             location: {
                 center: [-99.14960, 19.40666],
@@ -2058,11 +2151,11 @@ var config = {
             id: 'housing_financialisation',
             alignment: 'center',
             hidden: false,
-            title: 'El rol de Airbnb en la financiarización de la vivienda',
+            title: 'El rol de Airbnb en la financiarización de la vivienda ',
             image: './images/proptech.png',
-            imageCaption: 'Una industria profesional sobre las plataformas tecnológicas ha emergido en distintos mercados de Bienes Raíces en Latinoamérica, estás incluyen varias empresas que se dedican específicamente a las rentas de corto plazo. ',
+            imageCaption: ' Una industria profesional de plataformas y tecnologías inmobiliarias ha surgido en torno a los mercados inmobiliarios de América Latina, incluyendo muchas que se centran específicamente en el alquiler a corto plazo. ',
             // image: './images/tulum_beach.jpg',
-            description: 'Las compañías que son dueñas u ofrecen el <em> management </em> de edificios como Dinamarca 77 y Pandora compran propiedades, que no ven como hogares (a diferencia de quienes fueron desalojados), pero como sitios donde pueden generar ganancias. Este fenómeno es conocida como financiarización de la vivienda, donde se trata a unidades habitacionales como un activo financiero en lugar de ser un derecho humano [10]. <br> <br> Aunque la financiarización de la vivienda no es proceso nuevo, el impacto que ha generado, se ha visto magnificado por medio de las plataformas digitales. Los <em> smartphones </em> y las <em> apps </em> (la generación de datos y las capacidades analíticas que habilita) ayudan a los inversionistas manejar complejos portafolios de propiedades, y mantenerlos en crecimiento [11]. Ellos habilitan la financiarización de la vivienda, a velocidades y escalas impresionantes, con un incremento en la ganancia que generan. <br> <br> Las plataformas de alquiler a corto plazo, crean nuevas oportunidades para este nuevo tipo de financiarización. Estos alquileres están diseñados para una nueva clase de inquilinos, trabajadores remotos adinerados (en su mayoría turistas extranjeros) quienes pueden permitirse pagar rentas mucho más caras que a los locales. Esto también pone en riesgo las regulaciones y protecciones dadas a los inquilinos de largo plazo, ya que Airbnb da los <em> Hosts </em>más flexibilidades y control sobre sus propiedades [12]. Para inversionistas como lo son Mr. W y Virtual Homes, el potencial de ganancia es demasiado grande, como para ser ignorado. <br> <br> Este fenómeno no es único de la Ciudad de México [13]. Una industria conformada por <em> property managers </em>, caseros, y plataformas de bienes raíces ha  surgido en conjunto con Airbnb en ciudades alrededor del mundo. Las boutiques y las fachadas de la CSM son una expresión de un sistema global que valora las inversiones de capital y la generación de ganancias, sobre las vidas y comunidades humanas.',
+            description: 'Las empresas propietarias o gestoras de edificios como Dinamarca 77 y Pandora los compran porque los consideran no como viviendas, como lo hicieron los inquilinos desalojados, sino como propiedades de las que pueden obtener beneficios. Este fenómeno se conoce como la financiarización de la vivienda: el tratamiento de la vivienda por parte de los inversores como un activo financiero, en lugar de como un derecho humano [10]. <br> <Br> Si bien la financiarización de la vivienda no es nueva, sus impactos se han visto amplificados por las plataformas y herramientas digitales. Los smartphones y las aplicaciones (y las capacidades de datos y análisis que ofrecen) permiten a los inversores gestionar carteras de propiedades grandes y cada vez más complejas [11]. Facilitan la financiarización a mayor velocidad, a mayor escala y con un mayor potencial de beneficios. <br> <br> Las plataformas de alquiler a corto plazo como Airbnb crean oportunidades para un nuevo tipo de financiarización. Atienden a un grupo creciente de trabajadores remotos móviles y relativamente adinerados (y turistas extranjeros) que pueden permitirse pagar alquileres mucho más altos que los locales. Además, al eludir las regulaciones y protecciones para inquilinos a largo plazo, Airbnb ofrece a los anfitriones mucha más flexibilidad y control sobre sus propiedades [12]. Para inversionistas como Mr W y Virtual Homes, el potencial de ingresos es demasiado grande como para ignorarlo. <br> <br> Este fenómeno no es exclusivo de la Ciudad de México [13]. Una industria profesional de administradores de propiedades, arrendadores y plataformas inmobiliarias ha surgido en paralelo con Airbnb en ciudades de todo el mundo. Las boutiques y fachadas de la CDMX son una expresión local de un sistema global que prioriza las inversiones de capital y las ganancias sobre las vidas humanas y la cohesión comunitaria.',
             
             location: {
                 center: [-99.14960, 19.40666],
@@ -2151,11 +2244,11 @@ var config = {
             id: 'conclude',
             alignment: 'center',
             hidden: false,
-            title: ' El Barrio es de Quien lo Trabaja...',
+            title: ' El Barrio es de quien lo trabaja...',
             image: './images/juarez_conclusion.png',
-            imageCaption: 'Murales como este son una de las maneras que los vecinos de la Colonia Juárez resisten el Blanqueamiento por Despojo, al mismo tiempo visibilizan sus lucha por la Colonia. ',
+            imageCaption: 'Murales como éstos son una forma en que los organizadores de la Colonia Juárez resisten el blanqueamiento por despojo y visibilizan sus reivindicaciones en el barrio.',
             // image: './images/tulum_beach.jpg',
-            description: 'Mientras que los gobiernos municipales han comenzado a limitar el crecimiento de plataformas como Airbnb, no es claro que tan aplicadas y exitosas serán las nuevas reglamentaciones. Los datos disponibles para Airbnb en la Alcaldía Cuahutémoc se han mantenido relativamente estables a lo largo del año. Mientras los incremento de golpe observados en el periodo de 2022-2023 se han ralentizado, los miles de unidades de Airbnb que fueron establecidas se mantienen en el mercado.  Los nómadas digitales continúan tomando <em> selfies </em> en las calles de la Ciudad de/ México, y la gentrificación continúa modificando el paisaje cultural y económico de la ciudad. <br> <br> Sin embargo, residentes como los de la Juárez no aceptan estos cambios como parte de un futuro inevitable. Mientras que el blanqueamiento por despojo y la gentrificación son procesos que se mantienen activos, y están fundamentados en largos procesos de despojo que se han vivido históricamente en la Ciudad de México. Aún así, los Juaricuas no han podido ser disuadidos, y continúan practicando en su día a día diferentes y creativas formas de resistencia ante el Airbnb y otras formas de especulación capitalista en su colonia. Estos modelos de resistencia son visibles y directos, como lo son afiches y murales en edificios donde los residentes resisten el desplazamiento. Otros son menos obvios como el señor de los tamales que continúa vendiendo comida, aún cuando los edificios del otro lado de la banqueta han sido blanqueados. Los Juaricuas defienden su derecho de mantenerse en su colonia, y en sus casas. <em>El barrio es de quien lo trabaja. La lucha sigue. </em>',
+            description: 'Aunque las políticas recientes del gobierno municipal indican un deseo de frenar el crecimiento de Airbnb, no está claro su éxito ni la eficacia con la que se aplicarán las nuevas normas. Los datos disponibles de 2024 sugieren que el número de alojamientos en Airbnb en la Alcaldía Cuauhtémoc se ha mantenido relativamente estable a lo largo del año. Si bien los notables aumentos en los alojamientos observados en 2022-2023 se han desacelerado, las miles de unidades Airbnb establecidas durante estos años se mantienen. Los nómadas digitales siguen tomándose selfis en las calles de la Ciudad de México, y la gentrificación sigue moldeando el panorama cultural y económico. <br> <br> Sin embargo, los residentes de colonias como La Juárez no aceptan estos cambios como inevitables. El blanqueo por despojo y la gentrificación continúan y tienen sus raíces en una larga historia de despojo en la Ciudad de México; sin embargo, los juaricuas no se desaniman: siguen practicando formas cotidianas y creativas de resistencia a Airbnb y otras formas de especulación capitalista en su barrio. Estas formas de resistencia son visibles y directas, como carteles pegados con celo o murales pintados en edificios donde los residentes resisten el desplazamiento. Otras son quizás menos obvias, como un vendedor ambulante que sigue vendiendo sus productos incluso después de que los edificios con los que comparte la acera hayan sido blanqueados. Los juaricuas siguen insistiendo en su derecho a permanecer en su colonia, en sus hogares, bajo sus propios términos. <em> El barrio es de quien lo trabaja. La lucha sigue. </em>',
             
             location: {
                 center: [-99.14960, 19.40666],
@@ -2245,10 +2338,10 @@ var config = {
             id: 'acknowledgements',
             alignment: 'center',
             hidden: false,
-            title: 'The People of Proyecto Juaricua',
+            title: 'Acknowledgements',
             // image: './images/tulum_beach.jpg',
             // description: 'Text for the chapter',
-            description: '<strong> Margaret Marietta Ramírez</strong>, (Dra. en Geografía) es la Directora Asociada de Estudios Chicana/o- Latina/o de la Universidad de Stanford, California. También es Profesora Adjunta del Departamento de Geografía de la Universidad Simon Fraser, Canadá.  MMR es una investigadora que ha dedicado más de una década al estudio de los efectos de la gentrificación en comunidades históricamente marginalizadas en el área de San Francisco. Sus trabajos en gentrificación, justicia habitacional y movimientos sociales han sido publicados en Environment & Planning D, Urban Geography, IJURR Online, y Antipode. También es Co-Editora de el Anti-Eviction Mapping Project (2021) colección Counterpoints: A Bay Area Atlas of Displacement and Resistance. MMR creció explorando la Ciudad de México durante el verano mientras visitaba a su familia, siendo desde su infancia una fuerte conexión y cariño por la Ciudad de México y sus familiares que viven en ella. <br> <br> <strong> Gabrielle Wong </strong> es una estudiante de licenciatura de la Universidad Simon Fraser, se graduará en Junio 2025 con una Licenciatura en Geografía Humana, una especialidad en Análisis de Datos para las Ciencias Sociales y un certificado en Estudios Urbanos. Este proyecto le ha permitido observar la vivacidad, creatividad y resiliencia de los habitantes de la Ciudades de México y sus diferentes vecindarios que  encaran el desplazamiento. <br> <br>  <strong> Andrea M. López </strong> es una estudiante de licenciatura en Simon Fraser University. Actualmente se encuentra trabajando en su Licenciatura en Geografía Humana, una especialidad en Ciencias de los Sistemas de Información Geográficos y un certificado en Estudios Urbanos. Nació y creció en las calles de la Ciudad de México, y el trabajar en esté proyecto le ha dado nuevos significados en las calle donde creció. <br> <br> <strong> Sergio González </strong> es un activista urbano por la Defensa del Territorio y el Derecho a la Ciudad que busca mitigar las 4D’s: Desplazamiento Forzado, Despojo, Desalojo y Desarraigo provocadas por los efectos del Blanqueamiento por despojo, termino polisémico Juaricua que la academia nombra con el anglicismo Gentrificación. Es integrante y co-fundador de la [ 06600 ] - Plataforma Vecinal y Observatorio de la Colonia Juárez y de Juaricua TV, medio de difusión vecino barrial en la Gran Ciudad de México. Ha sido dos veces desplazado por la presión inmobiliaria y ha logrado prevalecer en el territorio defendiendo el derecho al Arraigo Vecinal.<br> <br> <br> <em> <strong> Esté proyecto fue financiado por el Concilio de Ciencias Sociales y Humanidades del Gobierno de Canadá (SSHRC) Insight Development Research Grant y con el apoyo del <a href=\"https://antievictionmap.com\" style=\"color:#ffffff;\" target=\"_blank\">Anti-Eviction Mapping Project</a>  y los datos de <a href=\"https://insideairbnb.com/\" style=\"color:#ffffff;\" target=\"_blank\">Inside Airbnb.</a>. </em> </strong>',
+            description: 'Proyecto Juaricua es una colaboración entre investigadores y organizadores Mexicanos, Canadienses y Americanos.',
             location: {
                 center: [-99.12574, 19.39614],
                 zoom: 10.00,
@@ -2339,7 +2432,7 @@ var config = {
             title: 'Endnotes',
             // image: './images/tulum_beach.jpg',
             // description: 'Text for the chapter',
-            description: "[1] Quote from the blog <em> <a href = 'https://digitalnomadlifestyle.com/2024/06/14/mexico-city-the-complete-digital-nomad-guide/' style='color:#ffffff;' >Digital Nomad Lifestyle </a> </em>. <br> <br> [2]In the latter half of 2024, the global company <a href = 'https://www.theblueground.com/' style='color:#ffffff;' >Blueground </a> added nearly 150 units to their listings in CDMX. Although they have slightly fewer units than Mr. W and Virtual Homes in Mexico City, they are expanding at a faster rate and are much more established globally, with collections of short-term rentals in five continents. <br> <br>  [3] Figure from <a href = 'https://english.elpais.com/international/2022-12-13/mr-w-the-mysterious-airbnb-broker-in-mexico-city.html_' style='color:#ffffff;'> EL PAÍS </a> <br> <br> [4] Data from <a href = 'https://www.inmuebles24.com/noticias/cdmx-renta/' style='color:#ffffff;' >Inmeubles24 </a>. The data that is provided only accounts for properties listed on this site. <br> <br> [5] See the research of <a href= ‘https://doi.org/10.1093/cjres/rsad009’ style='color:#ffffff;'>Hidalgo et al. (2023) </a> for more information. <br> <br> [6] Blanqueamiento por despojo was first discussed in <a href = ‘https://permanecerenlamerced.wordpress.com/2019/03/18/blanqueamiento-por-despojo-por-pablo-gaytan-santiago/’ style='color:#ffffff;'> work </a> by Pablo Gaytán Santiago, a researcher in the Department of Social Relations and the Communication and Politics Area at Universidad Autónoma Metropolitana-Xochimilco and a documentary filmmaker. Sergio González, lead organizer with the [ 06600 ] Plataforma Vecinal y Observatorio de la Colonia Juárez, also speaks to the terms origins within the Juaricuas’ housing movement.  <a href = 'https://journals.sagepub.com/doi/abs/10.1177/27541258231204004?journalCode=dusa' style='color:#ffffff;' >Ben Gerlofs and Ernesto López Morales (2023) </a> have also written on blanqueamiento por despojo in Mexico City.  <br> <br> [7] For more information, see Carla Escoffié’s book, <em> País sin techo: Ciudades, historias y luchas sobre la vivienda </em>, and the work of <a href = ‘https://doi.org/10.5354/0718-8358.2022.65649’ style='color:#ffffff;'> Linz et al. (2022) </a>. <br> <br> [8] See Airbnb’s announcement on this partnership <a href = ‘https://news.airbnb.com/cdmx-unesco-and-airbnb-announce-partnerships-to-promote-mexico-city-as-a-g/’ style='color:#ffffff;'> here </a>. <br> <br> [9] The full policy is available in the <a href = ‘https://data.consejeria.cdmx.gob.mx/portal_old/uploads/gacetas/31ad26cb85b412c0492e504ade4f23ab.pdf  style='color:#ffffff;'’> Gaceta Oficial de la Ciudad de Órgano de México 1330 </a>. <br> <br> [10] For more in-depth research on the global financialization of housing, see the work of <a href = ‘https://onlinelibrary.wiley.com/doi/full/10.1111/1468-2427.12062?casa_token=WQ035imkpzYAAAAA%3Av7XspjfGza1m6wvOawDp20aUKJ1RuCoKtUjoNoudnWlpWtw1t4uAXAfHFF-1DWDJ-u56oe50YAnNKWo’ style='color:#ffffff;'> Rolnik (2013) </a>,  <a href = ‘https://doi.org/10.1177/0042098014543704’ style='color:#ffffff;'> Fields & Uffer (2016) </a>, <a href = ‘https://onlinelibrary.wiley.com/doi/full/10.1111/1468-2427.12522?casa_token=0JoSEVSlzOgAAAAA%3AhlEZlRYTzeKzIPOgdp6WcxWECC-rvBA6i09ZuPuYOEhfrhZu4ufi4Fsgdu4-f0ONW-FMyRH3xxM2m5Y’ style='color:#ffffff;'> Aalbers (2017) </a>, <a href = ‘https://www.tandfonline.com/doi/full/10.1080/10511482.2019.1681491?casa_token=FXvnQMNUPFkAAAAA%3AKiGk-KjHTzLaXf7fTXQJdwAkVBbGMZpTIsCo0y0Ft_W7oEohcYHP0eC7X7V02miGKJEprmoAI6sO7A#abstract' style='color:#ffffff;'> Fernandez & Aalbers 2020 </a>, and <a href = ‘https://www.tandfonline.com/doi/full/10.1080/02723638.2024.2355061?casa_token=cMfFq2GBngkAAAAA%3A4ty_JaEpM5IV-SvPXSvWacjlqJnwQFJspl9Q_EplAGKJKHAWkX7vSiL1cmXs6oR1W4gETsXdd5_wBw’ style='color:#ffffff;''> Rolnik et al. (2024) </a>.<br> <br> [11] See <a href = ‘https://doi.org/10.1177/0308518X19846514’ style='color:#ffffff;'> Fields (2022) </a> for a discussion of digital technologies and their role in financial accumulation.  <br> <br> [12]  <a href = ‘https://doi.org/10.1016/j.cities.2023.104245’ style='color:#ffffff;'> Gil et al. (2023) </a> discuss the connections between short-term rental platforms and the financialization of housing in more detail.  <br> <br> [13]  <a href = ‘https://doi.org/10.1016/j.cities.2023.104245’ style='color:#ffffff;'> Gil et al. (2023) </a> and <a href = ‘https://www.routledge.com/Airbnb-Short-Term-Rentals-and-the-Future-of-Housing/Hoffman-SchmitterHeisler/p/book/9780367234188?srsltid=AfmBOopw8w0Cl8zsGoHmA01xS46pc48K1BZcN6ReEVTF1WzygKM0rk5y’ style='color:#ffffff;'> Hofman & Heisler’s (2020) </a> research both investigate the role of Airbnb in the financialization of housing in other cities.",
+            description: "[1] Quote from the blog <em> <a href = 'https://digitalnomadlifestyle.com/2024/06/14/mexico-city-the-complete-digital-nomad-guide/' style='color:#ffffff;'>Digital Nomad Lifestyle</a> </em>. <br> <br> [2]In the latter half of 2024, the global company <a href = 'https://www.theblueground.com/' style='color:#ffffff;'>Blueground</a> added nearly 150 units to their listings in CDMX. Although they have slightly fewer units than Mr. W and Virtual Homes in Mexico City, they are expanding at a faster rate and are much more established globally, with collections of short-term rentals in five continents. <br> <br> [3] Figure from <a href = 'https://english.elpais.com/international/2022-12-13/mr-w-the-mysterious-airbnb-broker-in-mexico-city.html_' style='color:#ffffff;'> EL PAÍS </a> <br> <br> [4] Data from <a href = 'https://www.inmuebles24.com/noticias/cdmx-renta/' style='color:#ffffff;'>Inmeubles24</a>. The data that is provided only accounts for properties listed on this site. <br> <br> [5] See the research of <a href = 'https://doi.org/10.1093/cjres/rsad009' style='color:#ffffff;'>Hidalgo et al. (2023)</a> for more information. <br> <br> [6] Blanqueamiento por despojo was first discussed in <a href = 'https://permanecerenlamerced.wordpress.com/2019/03/18/blanqueamiento-por-despojo-por-pablo-gaytan-santiago/' style='color:#ffffff;'> work</a> by Pablo Gaytán Santiago, a researcher in the Department of Social Relations and the Communication and Politics Area at Universidad Autónoma Metropolitana-Xochimilco and a documentary filmmaker. Sergio González, lead organizer with the 06600 Plataforma Vecinal y Observatorio de la Colonia Juárez, also speaks to the terms origins within the Juaricuas’ housing movement. <a href = 'https://journals.sagepub.com/doi/abs/10.1177/27541258231204004?journalCode=dusa' style='color:#ffffff;'>Ben Gerlofs and Ernesto López Morales (2023)</a> have also written on blanqueamiento por despojo in Mexico City. <br> <br> [7] For more information, see Carla Escoffié’s book, <em> País sin techo: Ciudades, historias y luchas sobre la vivienda </em>, and the work of <a href = 'https://doi.org/10.5354/0718-8358.2022.65649' style='color:#ffffff;'>Linz et al. (2022)</a>. <br> <br> [8] See Airbnb’s announcement on this partnership <a href = 'https://news.airbnb.com/cdmx-unesco-and-airbnb-announce-partnerships-to-promote-mexico-city-as-a-g/' style='color:#ffffff;'>here</a>. <br> <br> [9] The full policy is available in the <a href = 'https://data.consejeria.cdmx.gob.mx/portal_old/uploads/gacetas/31ad26cb85b412c0492e504ade4f23ab.pdf' style='color:#ffffff;'> Gaceta Oficial de la Ciudad de Órgano de México 1330</a>. <br> <br> [10] For more in-depth research on the global financialization of housing, see the work of <a href = 'https://onlinelibrary.wiley.com/doi/full/10.1111/1468-2427.12062?casa_token=WQ035imkpzYAAAAA%3Av7XspjfGza1m6wvOawDp20aUKJ1RuCoKtUjoNoudnWlpWtw1t4uAXAfHFF-1DWDJ-u56oe50YAnNKWo' style='color:#ffffff;'>Rolnik (2013)</a>,  <a href = 'https://doi.org/10.1177/0042098014543704' style='color:#ffffff;'>Fields & Uffer (2016)</a>, <a href = 'https://onlinelibrary.wiley.com/doi/full/10.1111/1468-2427.12522?casa_token=0JoSEVSlzOgAAAAA%3AhlEZlRYTzeKzIPOgdp6WcxWECC-rvBA6i09ZuPuYOEhfrhZu4ufi4Fsgdu4-f0ONW-FMyRH3xxM2m5Y' style='color:#ffffff;'>Aalbers (2017)</a>, <a href = 'https://www.tandfonline.com/doi/full/10.1080/10511482.2019.1681491?casa_token=FXvnQMNUPFkAAAAA%3AKiGk-KjHTzLaXf7fTXQJdwAkVBbGMZpTIsCo0y0Ft_W7oEohcYHP0eC7X7V02miGKJEprmoAI6sO7A#abstract' style='color:#ffffff;'>Fernandez & Aalbers (2020)</a>, and <a href = 'https://www.tandfonline.com/doi/full/10.1080/02723638.2024.2355061?casa_token=cMfFq2GBngkAAAAA%3A4ty_JaEpM5IV-SvPXSvWacjlqJnwQFJspl9Q_EplAGKJKHAWkX7vSiL1cmXs6oR1W4gETsXdd5_wBw' style='color:#ffffff;'>Rolnik et al. (2024)</a>.<br> <br> [11] See <a href = 'https://doi.org/10.1177/0308518X19846514' style='color:#ffffff;'>Fields (2022)</a> for a discussion of digital technologies and their role in financial accumulation. <br> <br> [12]  <a href = 'https://doi.org/10.1016/j.cities.2023.104245' style='color:#ffffff;'>Gil et al. (2023)</a> discuss the connections between short-term rental platforms and the financialization of housing in more detail. <br> <br> [13]  <a href = 'https://doi.org/10.1016/j.cities.2023.104245' style='color:#ffffff;'>Gil et al. (2023)</a> and <a href = 'https://www.routledge.com/Airbnb-Short-Term-Rentals-and-the-Future-of-Housing/Hoffman-SchmitterHeisler/p/book/9780367234188?srsltid=AfmBOopw8w0Cl8zsGoHmA01xS46pc48K1BZcN6ReEVTF1WzygKM0rk5y' style='color:#ffffff;'>Hofman & Heisler’s (2020)</a> research both investigate the role of Airbnb in the financialization of housing in other cities.",
             location: {
                 center: [-99.12574, 19.39614],
                 zoom: 10.00,
