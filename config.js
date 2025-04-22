@@ -16,7 +16,7 @@ var config = {
 
    // Story Details
     title: 'Lucha por la vivienda',
-    subtitle: "Alquileres de Corto Plazo y su rol en el desplazamiento forzado y despojo en la Ciudad de México",
+    subtitle: "Alquileres de Corto Plazo, desplazamiento y despojo en la Ciudad de México",
     // subtitle: 'subtitle, if desired',
     byline: 'Mapa hecho por el Proyecto Juaricua, en colaboración con [ 06600 ] Plataforma Observatorio Vecinal de la Colonia Juárez',
     littleByline: 'Para mejores resultados, visualice el sitio web desde un ordenador (website).',
